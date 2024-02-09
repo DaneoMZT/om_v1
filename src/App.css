@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: black;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
   color: white;
 }
 .new-task {
-  display: block;
+  display: block; 
   width: 100%;
   background-color: azure;
   border-radius: 10px;
