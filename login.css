@@ -1,0 +1,44 @@
+#user {
+    float: right;
+    border: 1px solid;;
+    width: 35%;
+    height: 17%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: px 50px;
+}
+#user h1 {
+    color: white;
+}
+
+#user .form .item input {
+    width: 200px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: white; 
+    color: black; 
+    padding: 5px 10px; 
+}
+#user .form .item i {
+    color: white;
+    font-size: 50px;
+}
+#user button {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: white; 
+    border-radius: 25px; 
+    background-image: linear-gradient(to right,gray 0%, black  75%); 
+}
+
+body {
+    background: url("/User_OpMo.jpg") center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
