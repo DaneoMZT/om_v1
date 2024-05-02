@@ -1,13 +1,13 @@
 #user {
     float: right;
     border: 1px solid;;
-    width: 35%;
-    height: 17%;
+    width: 20%;
+    height: 30%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0, auto;
     margin-top: 15%;
     background: #00000080;
-    padding: px 50px;
+    padding: 20px;
 }
 #user h1 {
     color: white;
@@ -19,7 +19,6 @@
     border-bottom: 5px solid white; 
     font-size: 18px; 
     background: white; 
-    color: black; 
     padding: 5px 10px; 
 }
 #user .form .item i {
@@ -32,9 +31,9 @@
     height: 30px;
     margin-top: 18px; 
     font-size: 18px; 
-    color: white; 
+    color: white;
     border-radius: 25px; 
-    background-image: linear-gradient(to right,gray 0%, black  75%); 
+   
 }
 
 body {
@@ -42,3 +41,10 @@ body {
     background-size: cover ;
     background-repeat: no-repeat;
 }
+a {
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: white;
+  }
