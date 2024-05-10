@@ -9,7 +9,10 @@
 }
 
 body{
-    background-color: #323232;
+    background-image: url("moto_main.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0 auto;
     max-width: 1200px;
     font-family: Helvetica, Helvetica;
@@ -33,6 +36,7 @@ img{
 
 /* Header */
 header{
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     padding: 30px 10px 40px 10px;
@@ -43,7 +47,7 @@ header{
     text-decoration: none;
     color: #ffB900;
     line-height: 33px;
-    font-size: 14px;
+    font-size: 17px;
     padding: 5px 10px;
     transition: .5s;
     border-radius: 20px;
@@ -83,7 +87,6 @@ header{
     position: absolute;
     top: 70px;
     right: 0;
-
     background-color:  #000;
     width: 400px;
     z-index: 1;

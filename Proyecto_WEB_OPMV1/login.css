@@ -1,0 +1,78 @@
+#user {
+    float: right;
+    border: 1px solid;;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    margin: 0, auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px;
+}
+#user h1 {
+    color: white;
+}
+
+
+#contenedor_main{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 330px;
+ 
+}
+#contenedor{
+    background-color:#90c7bf;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+#user .form .item input {
+    width: 200px;
+    border: 0; 
+    border-bottom: 5px solid white; 
+    font-size: 18px; 
+    background: white; 
+    padding: 5px 10px; 
+}
+#user .form .item i {
+    color: white;
+    font-size: 50px;
+}
+#user button {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: white;
+    border-radius: 25px; 
+   
+}
+#encabezado nav a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #10100f;
+    line-height: 33px;
+    font-size: 17px;
+    padding: 10px 10px;
+    transition: .5s;
+    border-radius: 20px;
+    position:left;
+}
+body {
+    background: url("/User_OpMo.jpg") center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+a {
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: white;
+  }
