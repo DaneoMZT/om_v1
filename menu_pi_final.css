@@ -1,0 +1,80 @@
+
+.encabezado  {
+  margin: 0 30px;
+  text-decoration: none;
+  line-height: 26px;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+body {
+  background: url("User_OpMo.jpg");
+  background-attachment: fixed;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  margin: 0;
+	padding: 0;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+ul, ol {
+list-style:none;
+  }
+.nav > li {
+float:left;
+  }
+.nav li a {
+height: 100%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+padding: 2rem;
+background-color:#000;
+color:#fff;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+transition: .2s;
+   }
+.nav li a:hover {
+background-color:#434343;
+   }
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+  }
+.nav li:hover > ul {
+display:block;
+  }
+.nav li ul li {
+position:relative;
+  }
+.nav li ul li ul {
+right:-100px;
+top:10px;
+ }
+
+.contenedor{
+  width: 100%;
+  float:right;
+  margin: 0 30px;
+  text-decoration: none;
+  color: black;
+  line-height: 33px;
+  font-size: 40px;
+  padding: 5px 10px;
+  font-weight:bold;
+}
+.contenedor1{
+  margin: 100px 30px;
+  text-decoration: none;
+  color: black;
+  line-height: 33px;
+  font-size: 40px;
+  padding: 5px 10px;
+  font-weight:bold;
+}
+
