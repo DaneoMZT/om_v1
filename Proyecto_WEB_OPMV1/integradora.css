@@ -1,0 +1,283 @@
+/* Globales */
+*::after
+*::before
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-image: url("moto_main.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: Helvetica, Helvetica;
+    color: #ffB900;
+    list-style: none;
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Header */
+header{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px 40px 10px;
+}
+
+.contenedor nav a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: #ffB900;
+    line-height: 33px;
+    font-size: 17px;
+    padding: 5px 10px;
+    transition: .5s;
+    border-radius: 20px;
+    position:left;
+}
+
+.contenedor nav a:hover{
+    background-color: #ebe6e6;
+    color: #ffB900;
+}
+
+.contenedor-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #ffB900;
+    width: 25px;
+    height: 25px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.contenedor-cart-products{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color:  #000;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(235, 239, 29, 0.2);
+    border-radius: 10px;
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(210, 243, 44, 0.2);
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20pz;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+/* Main */
+.contenedor-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.items{
+    border-radius: 10px;
+}
+
+.items:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+.items img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+
+.items figure{
+    overflow: hidden;
+}
+
+.items:hover img{
+    transform: scale(1.2);
+}
+
+.info-product{
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-product button{
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.footer{
+    padding: 80px 0;
+    list-style: none;
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links h4{
+    font-size: 15px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #ffB900;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;
+    color: #ebe6e6;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+    list-style: none;
+}
+
+.footer-links ul li a:hover{
+    color: #ebe6e6;
+    padding-left: 6px;
+    list-style: none;
+}
+
+.social-link a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: #ebe6e6;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#323232;
+    transition: all .5s ease;
+}
+
+.social-link a:hover{
+    background-color: #ffB900;
+}
+
+.Destacado {
+    display: inline-block;
+    min-height: 40px;
+    width: 100%;
+    background-color: black;
+    margin: 0 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    transition: all .5s ease;
+}

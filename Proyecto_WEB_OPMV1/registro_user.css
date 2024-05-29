@@ -1,0 +1,133 @@
+body{
+    background-image: url("registro.jpg");
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
+#registrar{
+        float:left;
+        width:80%;
+        font-size:24px;
+        font-weight:bold;
+        color:#FFF;
+        text-align:right;
+}
+ 
+#encabezado nav a{
+        margin: 0 30px;
+        text-decoration: none;
+        color: #ffB900;
+        line-height: 33px;
+        font-size: 17px;
+        padding: 20px 10px;
+        transition: .5s;
+        border-radius: 20px;
+        position:left;
+    }
+ 
+#contenedor_main{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-165px;
+    margin-top: -210px;
+    width: 330px;
+ 
+}
+ 
+#contenedor{
+    background-color:#90c7bf;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0,.8);
+    -webkit-border-radius:5px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+ 
+#cabecera{
+    border-bottom: 5px solid #333;
+    padding-top: 5px;
+    height:70px;
+    line-height:50px;
+    text-align:center;
+}
+ 
+#cuerpo{
+    background:#ececec;
+    border:solid #ccc;
+    border-width: 2px 0;
+    padding:15px 35px;
+}
+ 
+label{
+    color: #666;
+    font-weight: bold
+}
+ 
+input{
+    border-radius:5px;
+    box-shadow: 2px 2px 3px 1px rgba(0,0,0,.8);
+    font:bold 12px Arial, Helvetica, sans-serif;
+    height: 24px;
+    line-height: 20px;
+    padding:0 2px;
+    width: 230px;
+}
+ 
+input#usuario{
+    background:#ffc no-repeat 0 2px; 
+    padding-left: 25px; 
+}
+ 
+input#contrasenia{
+    background:#ffc no-repeat 0 5px;
+    padding-left: 25px;
+ 
+}
+ 
+.boton{
+    background: rgb(232, 232, 16);
+    color: #666;
+    width: 120px;
+    
+}
+.boton_back{
+    background: #57a1cf;
+    color: #131313;
+    width: 120px;
+}
+
+
+.boton:active{
+    position: relative;
+    top: 3px;
+}
+ 
+#pie{
+    border-top: 5px solid #333;
+    color: black;
+    font-size: 11px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+form,p{
+    margin:0;
+}
+ 
+p{                    
+    padding-bottom: 5px;
+}
+p#bot{
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+
+}
+a:hover {
+    background-color: white;
+}
